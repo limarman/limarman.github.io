@@ -2,7 +2,7 @@
 const jsonUrl = 'eval_latest.json';
 
 // Get the div element
-const jsonDataDiv = document.getElementById('json-data');
+const jsonDataDiv = document.getElementById('table');
 
 // Fetch JSON data from the file
 fetch(jsonUrl)
