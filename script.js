@@ -2,7 +2,7 @@
 const jsonUrl = 'eval_latest.json';
 
 // Get the div element where you want to display the timestamp
-const timestampDiv = document.getElementById('home-text1');
+const timestampDiv = document.getElementById('latest-timestamp');
 
 // Fetch JSON data from the file
 fetch(jsonUrl)
