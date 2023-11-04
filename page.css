@@ -140,16 +140,23 @@
 /* Smartphones (Landscape) */
 @media screen and (min-width: 481px) and (max-width: 767px) {
     .header-container{
+        width: 95%;
+    }
+    .backdrop-container
+    {
+        width: 90%;
+    }
+}
+
+/* Tablets (Portrait and Landscape) */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .header-container{
         width: 750px;
     }
     .backdrop-container
     {
         width: 720px;
     }
-}
-
-/* Tablets (Portrait and Landscape) */
-@media screen and (min-width: 768px) and (max-width: 1024px) {
 }
 
 /* Laptops */
