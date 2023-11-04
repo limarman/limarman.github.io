@@ -104,11 +104,11 @@
   border-bottom-width: 0px;
 }
 .best-container6 {
+  padding-top: 15px;
   align-self: center;
+  width: 400px;
 }
-.best-container7 {
-  display: contents;
-}
+
 @media(max-width: 1200px) {
   .best-image {
     width: 834px;
