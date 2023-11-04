@@ -37,31 +37,33 @@
   <body>
     <link rel="stylesheet" href="./style.css" />
     <div>
-      <link href="./index.css" rel="stylesheet" />
+      <link href="./page.css" rel="stylesheet" />
 
-      <div class="home-container">
-        <div class="home-container1">
+      <div class="main-container">
+        <div class="header-container">
           <img alt="image" src="static/dsme_logo-900w.png" class="home-image" />
         </div>
-        <div class="home-container2">
-          <div class="home-container3">
-            <a href="best.html" class="home-navlink">Best Results</a>
-            <a href="index.html" class="home-navlink1">Latest Results</a>
+        <div class="backdrop-container">
+          <div class="link-container">
+            <a href="best.html" class="link-left">Best Results</a>
+            <a href="index.html" class="link-right">Latest Results</a>
           </div>
-          <h1 class="home-text">Car Racing Challenge</h1>
-          <h3 class="home-text1">Latest Results</h3>
-          <span id=latest-timestamp class="home-text2">Timestamp: 2023-10-17_13-15-10&nbsp;</span>
-          <div class="home-container5">
-            <div class="home-container6">
-                <table class="results-table" id="data-table">
-                  <tbody>
-                    <tr>
-                      <th>Group</th>
-                      <th>Score</th>
-                    </tr>
-                  </tbody>
-                </table>
-            </div>
+          <h1 class="title-text">Car Racing Challenge</h1>
+          <h3 class="subtitle-text">Latest Results</h3>
+          <span id=latest-timestamp class="info-text">Timestamp: 2023-10-17_13-15-10&nbsp;</span>
+          <div class="data-container">
+            <div class="scrollable-container">
+              <div class="table-container-2col">
+                  <table class="results-table" id="data-table">
+                    <tbody>
+                      <tr>
+                        <th>Group</th>
+                        <th>Score</th>
+                      </tr>
+                    </tbody>
+                  </table>
+              </div>
+            </div> 
           </div>
         </div>
       </div>
