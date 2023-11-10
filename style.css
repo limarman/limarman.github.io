@@ -129,7 +129,7 @@ table tr:nth-child(odd) {
 table tr th{
   background-color: #c2dcf5;
   padding: 10px;
-  border-bottom: 2px solid var(--dl-color-decoration);
+  border-bottom: px solid var(--dl-color-decoration);
 }
 
 .error-eval {
