@@ -52,13 +52,14 @@ document.addEventListener('DOMContentLoaded', function() {
                 //cell1.textContent = groupNumber;
                 cell1.textContent = (index + 1).toString()
                 cell2.textContent = group.groupNumber
+                cell3.textContent = group_names[group.groupNumber]
                 if(group.error)
                 {
-                    cell3.textContent = 'ERROR';
-                    cell3.classList.add('error-eval')
+                    cell4.textContent = 'ERROR';
+                    cell4.classList.add('error-eval')
                 }
                 else{
-                    cell3.textContent = group.mean.toFixed(3);
+                    cell4.textContent = group.mean.toFixed(3);
                 }
 
             });
