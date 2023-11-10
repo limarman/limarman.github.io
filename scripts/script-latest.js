@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 // Assign data to the cells
                 //cell1.textContent = groupNumber;
                 cell1.textContent = group.groupNumber;
-                cell2.textContent = group_names[group.groupNumber].name;
+                cell2.textContent = group_names[group.groupNumber];
                 //cell2.textContent = groupData.mean.toFixed(3);
                 if(group.error)
                 {
