@@ -137,6 +137,13 @@
     {
         width: 90%;
     }
+    .data-container{
+        width: 95%;
+    }
+    .scrollable-container
+    {
+        width: 95%;
+    }
 }
 
 /* Smartphones (Landscape) */
