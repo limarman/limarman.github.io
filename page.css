@@ -109,15 +109,17 @@
     overflow-y: auto;
     border: 0px solid black;
 }
-.table-container-2col {
+.table-container-3col {
     align-self: center;
-    width: 280px;
+    max-width: 280px;
+    width: 100%;
     height: auto;
     border: 0px solid black;
 }
-.table-container-3col {
+.table-container-4col {
     align-self: center;
-    width: 350x;
+    max-width: 350x;
+    width: 100%;
     height: auto;
     border: 0px solid black;
 }
