@@ -129,11 +129,11 @@
 /* Smartphones (Portrait) */
 @media screen and (max-width: 480px) {
     .header-container{
-        width: 470px;
+        width: 95%;
     }
     .backdrop-container
     {
-        width: 450px;
+        width: 90%;
     }
 }
 
