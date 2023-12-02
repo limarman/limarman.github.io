@@ -1,128 +1,128 @@
 {
-    "timestamp": "2023-12-02_15-53-32",
+    "timestamp": "2023-12-02_17-26-58",
     "groups": {
         "1": {
             "error": true,
-            "error_msg": "Traceback (most recent call last):\n  File \"/students_repo/group_1/evaluation_script.py\", line 61, in <module>\n    mean_reward, std_reward = evaluate_agent(model_file, agent_interface, env=\"CartPole-v1\", seed=args.seed, run_count=args.run_count)\n                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/students_repo/group_1/evaluation_script.py\", line 36, in evaluate_agent\n    state = agent_interface.get_state(obs)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/students_repo/group_1/interface.py\", line 5, in get_state\n    return torch.tensor(observation)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Could not infer dtype of dict\n]",
+            "error_msg": "Traceback (most recent call last):\n  File \"C:\\Users\\limar\\Desktop\\Studium\\Hiwi\\Car_Racing_Challenge\\students_repo\\group_1\\evaluation_script.py\", line 7, in <module>\n    from evaluation.CarEnv.Configs import RACING_FAST\n  File \"C:\\Users\\limar\\Desktop\\Studium\\Hiwi\\Car_Racing_Challenge\\Car-Racing-Challenge\\evaluation\\CarEnv\\__init__.py\", line 2, in <module>\n    from CarEnv.Env import CarEnv\nModuleNotFoundError: No module named 'CarEnv'\n]",
             "mean": -1,
             "std": -1,
             "commit-SHA": "f7f6d7ca1b0ca8179a28e9aa549ac4a84e5381aa"
         },
         "2": {
             "error": true,
-            "error_msg": "Traceback (most recent call last):\n  File \"/students_repo/group_2/evaluation_script.py\", line 61, in <module>\n    mean_reward, std_reward = evaluate_agent(model_file, agent_interface, env=\"CartPole-v1\", seed=args.seed, run_count=args.run_count)\n                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/students_repo/group_2/evaluation_script.py\", line 36, in evaluate_agent\n    state = agent_interface.get_state(obs)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/students_repo/group_2/interface.py\", line 5, in get_state\n    return torch.tensor(observation)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Could not infer dtype of dict\n]",
+            "error_msg": "Traceback (most recent call last):\n  File \"C:\\Users\\limar\\Desktop\\Studium\\Hiwi\\Car_Racing_Challenge\\students_repo\\group_2\\evaluation_script.py\", line 7, in <module>\n    from evaluation.CarEnv.Configs import RACING_FAST\n  File \"C:\\Users\\limar\\Desktop\\Studium\\Hiwi\\Car_Racing_Challenge\\Car-Racing-Challenge\\evaluation\\CarEnv\\__init__.py\", line 2, in <module>\n    from CarEnv.Env import CarEnv\nModuleNotFoundError: No module named 'CarEnv'\n]",
             "mean": -1,
             "std": -1,
             "commit-SHA": "778fec3875c0eb58932db649a6a98e8e01f988d6"
         },
         "3": {
             "error": true,
-            "error_msg": "Traceback (most recent call last):\n  File \"/students_repo/group_3/evaluation_script.py\", line 61, in <module>\n    mean_reward, std_reward = evaluate_agent(model_file, agent_interface, env=\"CartPole-v1\", seed=args.seed, run_count=args.run_count)\n                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/students_repo/group_3/evaluation_script.py\", line 36, in evaluate_agent\n    state = agent_interface.get_state(obs)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/students_repo/group_3/interface.py\", line 5, in get_state\n    return torch.tensor(observation)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Could not infer dtype of dict\n]",
+            "error_msg": "Traceback (most recent call last):\n  File \"C:\\Users\\limar\\Desktop\\Studium\\Hiwi\\Car_Racing_Challenge\\students_repo\\group_3\\evaluation_script.py\", line 7, in <module>\n    from evaluation.CarEnv.Configs import RACING_FAST\n  File \"C:\\Users\\limar\\Desktop\\Studium\\Hiwi\\Car_Racing_Challenge\\Car-Racing-Challenge\\evaluation\\CarEnv\\__init__.py\", line 2, in <module>\n    from CarEnv.Env import CarEnv\nModuleNotFoundError: No module named 'CarEnv'\n]",
             "mean": -1,
             "std": -1,
             "commit-SHA": "b60b72ceac11321e0678ee5f0fc47499a6d4c6a4"
         },
         "10": {
             "error": true,
-            "error_msg": "Traceback (most recent call last):\n  File \"/students_repo/group_10/evaluation_script.py\", line 61, in <module>\n    mean_reward, std_reward = evaluate_agent(model_file, agent_interface, env=\"CartPole-v1\", seed=args.seed, run_count=args.run_count)\n                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/students_repo/group_10/evaluation_script.py\", line 36, in evaluate_agent\n    state = agent_interface.get_state(obs)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/students_repo/group_10/interface.py\", line 5, in get_state\n    return torch.tensor(observation)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Could not infer dtype of dict\n]",
+            "error_msg": "Traceback (most recent call last):\n  File \"C:\\Users\\limar\\Desktop\\Studium\\Hiwi\\Car_Racing_Challenge\\students_repo\\group_10\\evaluation_script.py\", line 7, in <module>\n    from evaluation.CarEnv.Configs import RACING_FAST\n  File \"C:\\Users\\limar\\Desktop\\Studium\\Hiwi\\Car_Racing_Challenge\\Car-Racing-Challenge\\evaluation\\CarEnv\\__init__.py\", line 2, in <module>\n    from CarEnv.Env import CarEnv\nModuleNotFoundError: No module named 'CarEnv'\n]",
             "mean": -1,
             "std": -1,
             "commit-SHA": "f7f6d7ca1b0ca8179a28e9aa549ac4a84e5381aa"
         },
         "11": {
             "error": true,
-            "error_msg": "Traceback (most recent call last):\n  File \"/students_repo/group_11/evaluation_script.py\", line 61, in <module>\n    mean_reward, std_reward = evaluate_agent(model_file, agent_interface, env=\"CartPole-v1\", seed=args.seed, run_count=args.run_count)\n                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/students_repo/group_11/evaluation_script.py\", line 36, in evaluate_agent\n    state = agent_interface.get_state(obs)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/students_repo/group_11/interface.py\", line 5, in get_state\n    return torch.tensor(observation)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Could not infer dtype of dict\n]",
+            "error_msg": "Traceback (most recent call last):\n  File \"C:\\Users\\limar\\Desktop\\Studium\\Hiwi\\Car_Racing_Challenge\\students_repo\\group_11\\evaluation_script.py\", line 7, in <module>\n    from evaluation.CarEnv.Configs import RACING_FAST\n  File \"C:\\Users\\limar\\Desktop\\Studium\\Hiwi\\Car_Racing_Challenge\\Car-Racing-Challenge\\evaluation\\CarEnv\\__init__.py\", line 2, in <module>\n    from CarEnv.Env import CarEnv\nModuleNotFoundError: No module named 'CarEnv'\n]",
             "mean": -1,
             "std": -1,
             "commit-SHA": "778fec3875c0eb58932db649a6a98e8e01f988d6"
         },
         "12": {
             "error": true,
-            "error_msg": "Traceback (most recent call last):\n  File \"/students_repo/group_12/evaluation_script.py\", line 61, in <module>\n    mean_reward, std_reward = evaluate_agent(model_file, agent_interface, env=\"CartPole-v1\", seed=args.seed, run_count=args.run_count)\n                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/students_repo/group_12/evaluation_script.py\", line 36, in evaluate_agent\n    state = agent_interface.get_state(obs)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/students_repo/group_12/interface.py\", line 5, in get_state\n    return torch.tensor(observation)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Could not infer dtype of dict\n]",
+            "error_msg": "Traceback (most recent call last):\n  File \"C:\\Users\\limar\\Desktop\\Studium\\Hiwi\\Car_Racing_Challenge\\students_repo\\group_12\\evaluation_script.py\", line 7, in <module>\n    from evaluation.CarEnv.Configs import RACING_FAST\n  File \"C:\\Users\\limar\\Desktop\\Studium\\Hiwi\\Car_Racing_Challenge\\Car-Racing-Challenge\\evaluation\\CarEnv\\__init__.py\", line 2, in <module>\n    from CarEnv.Env import CarEnv\nModuleNotFoundError: No module named 'CarEnv'\n]",
             "mean": -1,
             "std": -1,
             "commit-SHA": "b60b72ceac11321e0678ee5f0fc47499a6d4c6a4"
         },
         "21": {
             "error": true,
-            "error_msg": "Traceback (most recent call last):\n  File \"/students_repo/group_21/evaluation_script.py\", line 61, in <module>\n    mean_reward, std_reward = evaluate_agent(model_file, agent_interface, env=\"CartPole-v1\", seed=args.seed, run_count=args.run_count)\n                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/students_repo/group_21/evaluation_script.py\", line 36, in evaluate_agent\n    state = agent_interface.get_state(obs)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/students_repo/group_21/interface.py\", line 5, in get_state\n    return torch.tensor(observation)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Could not infer dtype of dict\n]",
+            "error_msg": "Traceback (most recent call last):\n  File \"C:\\Users\\limar\\Desktop\\Studium\\Hiwi\\Car_Racing_Challenge\\students_repo\\group_21\\evaluation_script.py\", line 7, in <module>\n    from evaluation.CarEnv.Configs import RACING_FAST\n  File \"C:\\Users\\limar\\Desktop\\Studium\\Hiwi\\Car_Racing_Challenge\\Car-Racing-Challenge\\evaluation\\CarEnv\\__init__.py\", line 2, in <module>\n    from CarEnv.Env import CarEnv\nModuleNotFoundError: No module named 'CarEnv'\n]",
             "mean": -1,
             "std": -1,
             "commit-SHA": "f7f6d7ca1b0ca8179a28e9aa549ac4a84e5381aa"
         },
         "22": {
             "error": true,
-            "error_msg": "Traceback (most recent call last):\n  File \"/students_repo/group_22/evaluation_script.py\", line 61, in <module>\n    mean_reward, std_reward = evaluate_agent(model_file, agent_interface, env=\"CartPole-v1\", seed=args.seed, run_count=args.run_count)\n                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/students_repo/group_22/evaluation_script.py\", line 36, in evaluate_agent\n    state = agent_interface.get_state(obs)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/students_repo/group_22/interface.py\", line 5, in get_state\n    return torch.tensor(observation)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Could not infer dtype of dict\n]",
+            "error_msg": "Traceback (most recent call last):\n  File \"C:\\Users\\limar\\Desktop\\Studium\\Hiwi\\Car_Racing_Challenge\\students_repo\\group_22\\evaluation_script.py\", line 7, in <module>\n    from evaluation.CarEnv.Configs import RACING_FAST\n  File \"C:\\Users\\limar\\Desktop\\Studium\\Hiwi\\Car_Racing_Challenge\\Car-Racing-Challenge\\evaluation\\CarEnv\\__init__.py\", line 2, in <module>\n    from CarEnv.Env import CarEnv\nModuleNotFoundError: No module named 'CarEnv'\n]",
             "mean": -1,
             "std": -1,
             "commit-SHA": "778fec3875c0eb58932db649a6a98e8e01f988d6"
         },
         "23": {
             "error": true,
-            "error_msg": "Traceback (most recent call last):\n  File \"/students_repo/group_23/evaluation_script.py\", line 61, in <module>\n    mean_reward, std_reward = evaluate_agent(model_file, agent_interface, env=\"CartPole-v1\", seed=args.seed, run_count=args.run_count)\n                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/students_repo/group_23/evaluation_script.py\", line 36, in evaluate_agent\n    state = agent_interface.get_state(obs)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/students_repo/group_23/interface.py\", line 5, in get_state\n    return torch.tensor(observation)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Could not infer dtype of dict\n]",
+            "error_msg": "Traceback (most recent call last):\n  File \"C:\\Users\\limar\\Desktop\\Studium\\Hiwi\\Car_Racing_Challenge\\students_repo\\group_23\\evaluation_script.py\", line 7, in <module>\n    from evaluation.CarEnv.Configs import RACING_FAST\n  File \"C:\\Users\\limar\\Desktop\\Studium\\Hiwi\\Car_Racing_Challenge\\Car-Racing-Challenge\\evaluation\\CarEnv\\__init__.py\", line 2, in <module>\n    from CarEnv.Env import CarEnv\nModuleNotFoundError: No module named 'CarEnv'\n]",
             "mean": -1,
             "std": -1,
             "commit-SHA": "b60b72ceac11321e0678ee5f0fc47499a6d4c6a4"
         },
         "31": {
             "error": true,
-            "error_msg": "Traceback (most recent call last):\n  File \"/students_repo/group_31/evaluation_script.py\", line 61, in <module>\n    mean_reward, std_reward = evaluate_agent(model_file, agent_interface, env=\"CartPole-v1\", seed=args.seed, run_count=args.run_count)\n                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/students_repo/group_31/evaluation_script.py\", line 36, in evaluate_agent\n    state = agent_interface.get_state(obs)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/students_repo/group_31/interface.py\", line 5, in get_state\n    return torch.tensor(observation)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Could not infer dtype of dict\n]",
+            "error_msg": "Traceback (most recent call last):\n  File \"C:\\Users\\limar\\Desktop\\Studium\\Hiwi\\Car_Racing_Challenge\\students_repo\\group_31\\evaluation_script.py\", line 7, in <module>\n    from evaluation.CarEnv.Configs import RACING_FAST\n  File \"C:\\Users\\limar\\Desktop\\Studium\\Hiwi\\Car_Racing_Challenge\\Car-Racing-Challenge\\evaluation\\CarEnv\\__init__.py\", line 2, in <module>\n    from CarEnv.Env import CarEnv\nModuleNotFoundError: No module named 'CarEnv'\n]",
             "mean": -1,
             "std": -1,
             "commit-SHA": "f7f6d7ca1b0ca8179a28e9aa549ac4a84e5381aa"
         },
         "32": {
             "error": true,
-            "error_msg": "Traceback (most recent call last):\n  File \"/students_repo/group_32/evaluation_script.py\", line 61, in <module>\n    mean_reward, std_reward = evaluate_agent(model_file, agent_interface, env=\"CartPole-v1\", seed=args.seed, run_count=args.run_count)\n                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/students_repo/group_32/evaluation_script.py\", line 36, in evaluate_agent\n    state = agent_interface.get_state(obs)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/students_repo/group_32/interface.py\", line 5, in get_state\n    return torch.tensor(observation)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Could not infer dtype of dict\n]",
+            "error_msg": "Traceback (most recent call last):\n  File \"C:\\Users\\limar\\Desktop\\Studium\\Hiwi\\Car_Racing_Challenge\\students_repo\\group_32\\evaluation_script.py\", line 7, in <module>\n    from evaluation.CarEnv.Configs import RACING_FAST\n  File \"C:\\Users\\limar\\Desktop\\Studium\\Hiwi\\Car_Racing_Challenge\\Car-Racing-Challenge\\evaluation\\CarEnv\\__init__.py\", line 2, in <module>\n    from CarEnv.Env import CarEnv\nModuleNotFoundError: No module named 'CarEnv'\n]",
             "mean": -1,
             "std": -1,
             "commit-SHA": "778fec3875c0eb58932db649a6a98e8e01f988d6"
         },
         "33": {
             "error": true,
-            "error_msg": "Traceback (most recent call last):\n  File \"/students_repo/group_33/evaluation_script.py\", line 61, in <module>\n    mean_reward, std_reward = evaluate_agent(model_file, agent_interface, env=\"CartPole-v1\", seed=args.seed, run_count=args.run_count)\n                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/students_repo/group_33/evaluation_script.py\", line 36, in evaluate_agent\n    state = agent_interface.get_state(obs)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/students_repo/group_33/interface.py\", line 5, in get_state\n    return torch.tensor(observation)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Could not infer dtype of dict\n]",
+            "error_msg": "Traceback (most recent call last):\n  File \"C:\\Users\\limar\\Desktop\\Studium\\Hiwi\\Car_Racing_Challenge\\students_repo\\group_33\\evaluation_script.py\", line 7, in <module>\n    from evaluation.CarEnv.Configs import RACING_FAST\n  File \"C:\\Users\\limar\\Desktop\\Studium\\Hiwi\\Car_Racing_Challenge\\Car-Racing-Challenge\\evaluation\\CarEnv\\__init__.py\", line 2, in <module>\n    from CarEnv.Env import CarEnv\nModuleNotFoundError: No module named 'CarEnv'\n]",
             "mean": -1,
             "std": -1,
             "commit-SHA": "b60b72ceac11321e0678ee5f0fc47499a6d4c6a4"
         },
         "41": {
             "error": true,
-            "error_msg": "Traceback (most recent call last):\n  File \"/students_repo/group_41/evaluation_script.py\", line 61, in <module>\n    mean_reward, std_reward = evaluate_agent(model_file, agent_interface, env=\"CartPole-v1\", seed=args.seed, run_count=args.run_count)\n                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/students_repo/group_41/evaluation_script.py\", line 36, in evaluate_agent\n    state = agent_interface.get_state(obs)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/students_repo/group_41/interface.py\", line 5, in get_state\n    return torch.tensor(observation)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Could not infer dtype of dict\n]",
+            "error_msg": "Traceback (most recent call last):\n  File \"C:\\Users\\limar\\Desktop\\Studium\\Hiwi\\Car_Racing_Challenge\\students_repo\\group_41\\evaluation_script.py\", line 7, in <module>\n    from evaluation.CarEnv.Configs import RACING_FAST\n  File \"C:\\Users\\limar\\Desktop\\Studium\\Hiwi\\Car_Racing_Challenge\\Car-Racing-Challenge\\evaluation\\CarEnv\\__init__.py\", line 2, in <module>\n    from CarEnv.Env import CarEnv\nModuleNotFoundError: No module named 'CarEnv'\n]",
             "mean": -1,
             "std": -1,
             "commit-SHA": "f7f6d7ca1b0ca8179a28e9aa549ac4a84e5381aa"
         },
         "42": {
             "error": true,
-            "error_msg": "Traceback (most recent call last):\n  File \"/students_repo/group_42/evaluation_script.py\", line 61, in <module>\n    mean_reward, std_reward = evaluate_agent(model_file, agent_interface, env=\"CartPole-v1\", seed=args.seed, run_count=args.run_count)\n                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/students_repo/group_42/evaluation_script.py\", line 36, in evaluate_agent\n    state = agent_interface.get_state(obs)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/students_repo/group_42/interface.py\", line 5, in get_state\n    return torch.tensor(observation)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Could not infer dtype of dict\n]",
+            "error_msg": "Traceback (most recent call last):\n  File \"C:\\Users\\limar\\Desktop\\Studium\\Hiwi\\Car_Racing_Challenge\\students_repo\\group_42\\evaluation_script.py\", line 7, in <module>\n    from evaluation.CarEnv.Configs import RACING_FAST\n  File \"C:\\Users\\limar\\Desktop\\Studium\\Hiwi\\Car_Racing_Challenge\\Car-Racing-Challenge\\evaluation\\CarEnv\\__init__.py\", line 2, in <module>\n    from CarEnv.Env import CarEnv\nModuleNotFoundError: No module named 'CarEnv'\n]",
             "mean": -1,
             "std": -1,
             "commit-SHA": "778fec3875c0eb58932db649a6a98e8e01f988d6"
         },
         "43": {
             "error": true,
-            "error_msg": "Traceback (most recent call last):\n  File \"/students_repo/group_43/evaluation_script.py\", line 61, in <module>\n    mean_reward, std_reward = evaluate_agent(model_file, agent_interface, env=\"CartPole-v1\", seed=args.seed, run_count=args.run_count)\n                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/students_repo/group_43/evaluation_script.py\", line 36, in evaluate_agent\n    state = agent_interface.get_state(obs)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/students_repo/group_43/interface.py\", line 5, in get_state\n    return torch.tensor(observation)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Could not infer dtype of dict\n]",
+            "error_msg": "Traceback (most recent call last):\n  File \"C:\\Users\\limar\\Desktop\\Studium\\Hiwi\\Car_Racing_Challenge\\students_repo\\group_43\\evaluation_script.py\", line 7, in <module>\n    from evaluation.CarEnv.Configs import RACING_FAST\n  File \"C:\\Users\\limar\\Desktop\\Studium\\Hiwi\\Car_Racing_Challenge\\Car-Racing-Challenge\\evaluation\\CarEnv\\__init__.py\", line 2, in <module>\n    from CarEnv.Env import CarEnv\nModuleNotFoundError: No module named 'CarEnv'\n]",
             "mean": -1,
             "std": -1,
             "commit-SHA": "b60b72ceac11321e0678ee5f0fc47499a6d4c6a4"
         },
         "51": {
             "error": true,
-            "error_msg": "Traceback (most recent call last):\n  File \"/students_repo/group_51/evaluation_script.py\", line 61, in <module>\n    mean_reward, std_reward = evaluate_agent(model_file, agent_interface, env=\"CartPole-v1\", seed=args.seed, run_count=args.run_count)\n                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/students_repo/group_51/evaluation_script.py\", line 36, in evaluate_agent\n    state = agent_interface.get_state(obs)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/students_repo/group_51/interface.py\", line 5, in get_state\n    return torch.tensor(observation)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Could not infer dtype of dict\n]",
+            "error_msg": "Traceback (most recent call last):\n  File \"C:\\Users\\limar\\Desktop\\Studium\\Hiwi\\Car_Racing_Challenge\\students_repo\\group_51\\evaluation_script.py\", line 7, in <module>\n    from evaluation.CarEnv.Configs import RACING_FAST\n  File \"C:\\Users\\limar\\Desktop\\Studium\\Hiwi\\Car_Racing_Challenge\\Car-Racing-Challenge\\evaluation\\CarEnv\\__init__.py\", line 2, in <module>\n    from CarEnv.Env import CarEnv\nModuleNotFoundError: No module named 'CarEnv'\n]",
             "mean": -1,
             "std": -1,
             "commit-SHA": "f7f6d7ca1b0ca8179a28e9aa549ac4a84e5381aa"
         },
         "52": {
             "error": true,
-            "error_msg": "Traceback (most recent call last):\n  File \"/students_repo/group_52/evaluation_script.py\", line 61, in <module>\n    mean_reward, std_reward = evaluate_agent(model_file, agent_interface, env=\"CartPole-v1\", seed=args.seed, run_count=args.run_count)\n                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/students_repo/group_52/evaluation_script.py\", line 36, in evaluate_agent\n    state = agent_interface.get_state(obs)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/students_repo/group_52/interface.py\", line 5, in get_state\n    return torch.tensor(observation)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Could not infer dtype of dict\n]",
+            "error_msg": "Traceback (most recent call last):\n  File \"C:\\Users\\limar\\Desktop\\Studium\\Hiwi\\Car_Racing_Challenge\\students_repo\\group_52\\evaluation_script.py\", line 7, in <module>\n    from evaluation.CarEnv.Configs import RACING_FAST\n  File \"C:\\Users\\limar\\Desktop\\Studium\\Hiwi\\Car_Racing_Challenge\\Car-Racing-Challenge\\evaluation\\CarEnv\\__init__.py\", line 2, in <module>\n    from CarEnv.Env import CarEnv\nModuleNotFoundError: No module named 'CarEnv'\n]",
             "mean": -1,
             "std": -1,
             "commit-SHA": "778fec3875c0eb58932db649a6a98e8e01f988d6"
         },
         "53": {
             "error": true,
-            "error_msg": "Traceback (most recent call last):\n  File \"/students_repo/group_53/evaluation_script.py\", line 61, in <module>\n    mean_reward, std_reward = evaluate_agent(model_file, agent_interface, env=\"CartPole-v1\", seed=args.seed, run_count=args.run_count)\n                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/students_repo/group_53/evaluation_script.py\", line 36, in evaluate_agent\n    state = agent_interface.get_state(obs)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/students_repo/group_53/interface.py\", line 5, in get_state\n    return torch.tensor(observation)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Could not infer dtype of dict\n]",
+            "error_msg": "Traceback (most recent call last):\n  File \"C:\\Users\\limar\\Desktop\\Studium\\Hiwi\\Car_Racing_Challenge\\students_repo\\group_53\\evaluation_script.py\", line 7, in <module>\n    from evaluation.CarEnv.Configs import RACING_FAST\n  File \"C:\\Users\\limar\\Desktop\\Studium\\Hiwi\\Car_Racing_Challenge\\Car-Racing-Challenge\\evaluation\\CarEnv\\__init__.py\", line 2, in <module>\n    from CarEnv.Env import CarEnv\nModuleNotFoundError: No module named 'CarEnv'\n]",
             "mean": -1,
             "std": -1,
             "commit-SHA": "b60b72ceac11321e0678ee5f0fc47499a6d4c6a4"
