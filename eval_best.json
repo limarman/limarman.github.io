@@ -127,11 +127,11 @@
             "eval-timestamp": "2023-11-10_16-06-56"
         },
         "69": {
-            "error": true,
-            "mean": -1,
-            "std": -1,
-            "commit-SHA": "765de0d234b79bc385ed1369d109f01c2b74f429",
-            "eval-timestamp": "2023-12-04_15-22-37"
+            "error": false,
+            "mean": 18.736222917159147,
+            "std": 13.564967732345496,
+            "commit-SHA": "14018d4f1cbf38df0c9126a494b5f581bc07cd7c",
+            "eval-timestamp": "2023-12-04_16-19-12"
         }
     }
 }

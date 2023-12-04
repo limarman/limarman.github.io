@@ -1,5 +1,5 @@
 {
-    "timestamp": "2023-12-04_16-15-49",
+    "timestamp": "2023-12-04_16-19-12",
     "groups": {
         "1": {
             "error": true,
@@ -128,11 +128,11 @@
             "commit-SHA": "b60b72ceac11321e0678ee5f0fc47499a6d4c6a4"
         },
         "69": {
-            "error": true,
-            "error_msg": "Traceback (most recent call last):\n  File \"C:\\Users\\limar\\Desktop\\Studium\\Hiwi\\Car_Racing_Challenge\\students_repo\\group_69\\evaluation_script.py\", line 85, in <module>\n    mean_reward, std_reward = evaluate_agent(model_file, convert_obs, convert_action, seed=args.seed, tracks=tracks)\n  File \"C:\\Users\\limar\\Desktop\\Studium\\Hiwi\\Car_Racing_Challenge\\students_repo\\group_69\\evaluation_script.py\", line 55, in evaluate_agent\n    obs, reward, terminated, truncated, info = env.step(action)\n  File \"C:\\Users\\limar\\miniconda3\\envs\\car-racing-evaluation\\lib\\site-packages\\gymnasium\\wrappers\\order_enforcing.py\", line 56, in step\n    return self.env.step(action)\n  File \"C:\\Users\\limar\\miniconda3\\envs\\car-racing-evaluation\\lib\\site-packages\\gymnasium\\wrappers\\env_checker.py\", line 49, in step\n    return env_step_passive_checker(self.env, action)\n  File \"C:\\Users\\limar\\miniconda3\\envs\\car-racing-evaluation\\lib\\site-packages\\gymnasium\\utils\\passive_env_checker.py\", line 208, in env_step_passive_checker\n    result = env.step(action)\n  File \"C:\\Users\\limar\\Desktop\\Studium\\Hiwi\\Car_Racing_Challenge\\students_repo\\group_69\\CarEnv\\Env.py\", line 219, in step\n    s_control, l_control = self._action.interpret(action)\n  File \"C:\\Users\\limar\\Desktop\\Studium\\Hiwi\\Car_Racing_Challenge\\students_repo\\group_69\\CarEnv\\Actions\\ContinuousSteeringPedalsAction.py\", line 23, in interpret\n    s_act, t_act, b_act = act\nValueError: not enough values to unpack (expected 3, got 1)\n]",
-            "mean": -1,
-            "std": -1,
-            "commit-SHA": "1848b4144a1aa157002e555c810bfd9253bcad24"
+            "error": false,
+            "error_msg": "",
+            "mean": 18.736222917159147,
+            "std": 13.564967732345496,
+            "commit-SHA": "14018d4f1cbf38df0c9126a494b5f581bc07cd7c"
         }
     }
 }
