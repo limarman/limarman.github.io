@@ -1,5 +1,5 @@
 {
-    "timestamp": "2023-12-04_15-56-17",
+    "timestamp": "2023-12-04_16-06-09",
     "groups": {
         "1": {
             "error": true,
@@ -129,10 +129,10 @@
         },
         "69": {
             "error": true,
-            "error_msg": "Traceback (most recent call last):\n  File \"C:\\Users\\limar\\Desktop\\Studium\\Hiwi\\Car_Racing_Challenge\\students_repo\\group_69\\evaluation_script.py\", line 85, in <module>\n    mean_reward, std_reward = evaluate_agent(model_file, convert_obs, convert_action, seed=args.seed, tracks=tracks)\n  File \"C:\\Users\\limar\\Desktop\\Studium\\Hiwi\\Car_Racing_Challenge\\students_repo\\group_69\\evaluation_script.py\", line 51, in evaluate_agent\n    output = model.get_action(state)\n  File \"C:\\Users\\limar\\Desktop\\Studium\\Hiwi\\Car_Racing_Challenge\\students_repo\\group_69\\j_cleanRL_sac.py\", line 99, in get_action\n    mean, log_std = self(obs)\n  File \"C:\\Users\\limar\\miniconda3\\envs\\car-racing-evaluation\\lib\\site-packages\\torch\\nn\\modules\\module.py\", line 1518, in _wrapped_call_impl\n    return self._call_impl(*args, **kwargs)\n  File \"C:\\Users\\limar\\miniconda3\\envs\\car-racing-evaluation\\lib\\site-packages\\torch\\nn\\modules\\module.py\", line 1527, in _call_impl\n    return forward_call(*args, **kwargs)\n  File \"C:\\Users\\limar\\Desktop\\Studium\\Hiwi\\Car_Racing_Challenge\\students_repo\\group_69\\j_cleanRL_sac.py\", line 89, in forward\n    x = F.relu(self.fc1(x))\n  File \"C:\\Users\\limar\\miniconda3\\envs\\car-racing-evaluation\\lib\\site-packages\\torch\\nn\\modules\\module.py\", line 1518, in _wrapped_call_impl\n    return self._call_impl(*args, **kwargs)\n  File \"C:\\Users\\limar\\miniconda3\\envs\\car-racing-evaluation\\lib\\site-packages\\torch\\nn\\modules\\module.py\", line 1527, in _call_impl\n    return forward_call(*args, **kwargs)\n  File \"C:\\Users\\limar\\miniconda3\\envs\\car-racing-evaluation\\lib\\site-packages\\torch\\nn\\modules\\linear.py\", line 114, in forward\n    return F.linear(input, self.weight, self.bias)\nTypeError: linear(): argument 'input' (position 1) must be Tensor, not numpy.ndarray\n]",
+            "error_msg": "Traceback (most recent call last):\n  File \"C:\\Users\\limar\\Desktop\\Studium\\Hiwi\\Car_Racing_Challenge\\students_repo\\group_69\\evaluation_script.py\", line 85, in <module>\n    mean_reward, std_reward = evaluate_agent(model_file, convert_obs, convert_action, seed=args.seed, tracks=tracks)\n  File \"C:\\Users\\limar\\Desktop\\Studium\\Hiwi\\Car_Racing_Challenge\\students_repo\\group_69\\evaluation_script.py\", line 55, in evaluate_agent\n    obs, reward, terminated, truncated, info = env.step(action)\n  File \"C:\\Users\\limar\\miniconda3\\envs\\car-racing-evaluation\\lib\\site-packages\\gymnasium\\wrappers\\order_enforcing.py\", line 56, in step\n    return self.env.step(action)\n  File \"C:\\Users\\limar\\miniconda3\\envs\\car-racing-evaluation\\lib\\site-packages\\gymnasium\\wrappers\\env_checker.py\", line 49, in step\n    return env_step_passive_checker(self.env, action)\n  File \"C:\\Users\\limar\\miniconda3\\envs\\car-racing-evaluation\\lib\\site-packages\\gymnasium\\utils\\passive_env_checker.py\", line 208, in env_step_passive_checker\n    result = env.step(action)\n  File \"C:\\Users\\limar\\Desktop\\Studium\\Hiwi\\Car_Racing_Challenge\\students_repo\\group_69\\CarEnv\\Env.py\", line 225, in step\n    control = np.concatenate([np.array([s_control]), l_control], -1)[None]\nValueError: only one element tensors can be converted to Python scalars\n]",
             "mean": -1,
             "std": -1,
-            "commit-SHA": "16b9358cfdca0b93a7ebc981563bf968deea2c84"
+            "commit-SHA": "d41e9dd9245c731295944c3c6475b9f8a5cc3258"
         }
     }
 }
