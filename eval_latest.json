@@ -1,5 +1,5 @@
 {
-    "timestamp": "2023-12-04_15-26-53",
+    "timestamp": "2023-12-04_15-28-15",
     "groups": {
         "1": {
             "error": true,
@@ -129,10 +129,10 @@
         },
         "69": {
             "error": true,
-            "error_msg": "Traceback (most recent call last):\n  File \"C:\\Users\\limar\\Desktop\\Studium\\Hiwi\\Car_Racing_Challenge\\students_repo\\group_69\\evaluation_script.py\", line 64, in <module>\n    from bpa_racing import Actor, convert_obs, convert_action\n  File \"C:\\Users\\limar\\Desktop\\Studium\\Hiwi\\Car_Racing_Challenge\\students_repo\\group_69\\bpa_racing.py\", line 11, in <module>\n    from torch.utils.tensorboard import SummaryWriter\n  File \"C:\\Users\\limar\\miniconda3\\envs\\car-racing-evaluation\\lib\\site-packages\\torch\\utils\\tensorboard\\__init__.py\", line 1, in <module>\n    import tensorboard\nModuleNotFoundError: No module named 'tensorboard'\n]",
+            "error_msg": "Traceback (most recent call last):\n  File \"C:\\Users\\limar\\Desktop\\Studium\\Hiwi\\Car_Racing_Challenge\\students_repo\\group_69\\evaluation_script.py\", line 85, in <module>\n    mean_reward, std_reward = evaluate_agent(model_file, convert_obs, convert_action, seed=args.seed, tracks=tracks)\n  File \"C:\\Users\\limar\\Desktop\\Studium\\Hiwi\\Car_Racing_Challenge\\students_repo\\group_69\\evaluation_script.py\", line 30, in evaluate_agent\n    model = load_model(model_file)\n  File \"C:\\Users\\limar\\Desktop\\Studium\\Hiwi\\Car_Racing_Challenge\\students_repo\\group_69\\evaluation_script.py\", line 24, in load_model\n    model = pickle.load(model_file)\n  File \"C:\\Users\\limar\\miniconda3\\envs\\car-racing-evaluation\\lib\\site-packages\\torch\\storage.py\", line 337, in _load_from_bytes\n    return torch.load(io.BytesIO(b))\n  File \"C:\\Users\\limar\\miniconda3\\envs\\car-racing-evaluation\\lib\\site-packages\\torch\\serialization.py\", line 1028, in load\n    return _legacy_load(opened_file, map_location, pickle_module, **pickle_load_args)\n  File \"C:\\Users\\limar\\miniconda3\\envs\\car-racing-evaluation\\lib\\site-packages\\torch\\serialization.py\", line 1256, in _legacy_load\n    result = unpickler.load()\n  File \"C:\\Users\\limar\\miniconda3\\envs\\car-racing-evaluation\\lib\\site-packages\\torch\\serialization.py\", line 1193, in persistent_load\n    wrap_storage=restore_location(obj, location),\n  File \"C:\\Users\\limar\\miniconda3\\envs\\car-racing-evaluation\\lib\\site-packages\\torch\\serialization.py\", line 381, in default_restore_location\n    result = fn(storage, location)\n  File \"C:\\Users\\limar\\miniconda3\\envs\\car-racing-evaluation\\lib\\site-packages\\torch\\serialization.py\", line 274, in _cuda_deserialize\n    device = validate_cuda_device(location)\n  File \"C:\\Users\\limar\\miniconda3\\envs\\car-racing-evaluation\\lib\\site-packages\\torch\\serialization.py\", line 258, in validate_cuda_device\n    raise RuntimeError('Attempting to deserialize object on a CUDA '\nRuntimeError: Attempting to deserialize object on a CUDA device but torch.cuda.is_available() is False. If you are running on a CPU-only machine, please use torch.load with map_location=torch.device('cpu') to map your storages to the CPU.\n]",
             "mean": -1,
             "std": -1,
-            "commit-SHA": "2f2aaf696097b2d8bcc9f5db108e7a2d58dc6605"
+            "commit-SHA": "e53a3dbc84455d02ec79b7bc2023ae39b5174377"
         }
     }
 }
