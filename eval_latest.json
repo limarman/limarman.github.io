@@ -1,5 +1,5 @@
 {
-    "timestamp": "2023-12-04_15-22-37",
+    "timestamp": "2023-12-04_15-26-53",
     "groups": {
         "1": {
             "error": true,
@@ -129,10 +129,10 @@
         },
         "69": {
             "error": true,
-            "error_msg": "Traceback (most recent call last):\n  File \"C:\\Users\\limar\\Desktop\\Studium\\Hiwi\\Car_Racing_Challenge\\students_repo\\group_69\\evaluation_script.py\", line 64, in <module>\n    from bpa_racing import Actor, convert_obs, convert_action\n  File \"C:\\Users\\limar\\Desktop\\Studium\\Hiwi\\Car_Racing_Challenge\\students_repo\\group_69\\bpa_racing.py\", line 5, in <module>\n    import wandb\nModuleNotFoundError: No module named 'wandb'\n]",
+            "error_msg": "Traceback (most recent call last):\n  File \"C:\\Users\\limar\\Desktop\\Studium\\Hiwi\\Car_Racing_Challenge\\students_repo\\group_69\\evaluation_script.py\", line 64, in <module>\n    from bpa_racing import Actor, convert_obs, convert_action\n  File \"C:\\Users\\limar\\Desktop\\Studium\\Hiwi\\Car_Racing_Challenge\\students_repo\\group_69\\bpa_racing.py\", line 11, in <module>\n    from torch.utils.tensorboard import SummaryWriter\n  File \"C:\\Users\\limar\\miniconda3\\envs\\car-racing-evaluation\\lib\\site-packages\\torch\\utils\\tensorboard\\__init__.py\", line 1, in <module>\n    import tensorboard\nModuleNotFoundError: No module named 'tensorboard'\n]",
             "mean": -1,
             "std": -1,
-            "commit-SHA": "765de0d234b79bc385ed1369d109f01c2b74f429"
+            "commit-SHA": "2f2aaf696097b2d8bcc9f5db108e7a2d58dc6605"
         }
     }
 }
