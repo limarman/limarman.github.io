@@ -1,5 +1,5 @@
 {
-    "timestamp": "2023-12-04_15-19-39",
+    "timestamp": "2023-12-04_15-22-37",
     "groups": {
         "1": {
             "error": true,
@@ -126,6 +126,13 @@
             "mean": -1,
             "std": -1,
             "commit-SHA": "b60b72ceac11321e0678ee5f0fc47499a6d4c6a4"
+        },
+        "69": {
+            "error": true,
+            "error_msg": "Traceback (most recent call last):\n  File \"C:\\Users\\limar\\Desktop\\Studium\\Hiwi\\Car_Racing_Challenge\\students_repo\\group_69\\evaluation_script.py\", line 64, in <module>\n    from bpa_racing import Actor, convert_obs, convert_action\n  File \"C:\\Users\\limar\\Desktop\\Studium\\Hiwi\\Car_Racing_Challenge\\students_repo\\group_69\\bpa_racing.py\", line 5, in <module>\n    import wandb\nModuleNotFoundError: No module named 'wandb'\n]",
+            "mean": -1,
+            "std": -1,
+            "commit-SHA": "765de0d234b79bc385ed1369d109f01c2b74f429"
         }
     }
 }
